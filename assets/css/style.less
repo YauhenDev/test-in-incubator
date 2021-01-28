@@ -1,0 +1,26 @@
+
+
+@white: #fff;
+@black: #000;
+@green: #198754;
+@txt: #323232;
+
+
+body {
+	color: @txt;
+	background-color: @white;
+	padding-top: 6rem;
+	height: 100%;
+}
+.container {
+	height: 100%;
+}
+
+.btn-success {
+	&.btn-outline-danger{
+		color: @white !important;
+	}
+	&:hover {
+		background-color: @green;
+	}
+}

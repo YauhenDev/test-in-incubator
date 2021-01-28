@@ -1,0 +1,15 @@
+body {
+  color: #323232;
+  background-color: #fff;
+  padding-top: 6rem;
+  height: 100%;
+}
+.container {
+  height: 100%;
+}
+.btn-success.btn-outline-danger {
+  color: #fff !important;
+}
+.btn-success:hover {
+  background-color: #198754;
+}
