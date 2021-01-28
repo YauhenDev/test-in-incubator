@@ -13,7 +13,7 @@ inputMain.addEventListener('click', getValue);
 function getValue() {
     let getZnach = document.getElementById('idInput').value;
 
-    if (getZnach == 'google' ) {
+    if (getZnach == 'google' || getZnach == 'Google' || getZnach == 'GOOGLE' ) {
         console.log('Через 3 секунды Alert:', fiveTask.name, 'Yandex круче. Но это не точно');
         //alert(`${fiveTask.name} Yandex круче. Но это не точно`);
         setTimeout(
